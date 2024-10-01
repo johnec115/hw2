@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="nav.css">
+<style type="text/css">
+h2{text-align: center;font-size: 40px;}
+.form-element{margin-bottom: 8px; font-size:22px; text-align: center;}
+.footer{position: fixed; left:0; bottom:0;width:100%; color: #ffffff}
+.center{display:block; margin-left: auto; margin-right: auto;}
+</style>
+</head>
+<body style="background-color: #ff4646;">
+<ul id="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contacts.html">Contact</a></li>
+        <li><a href="menu.html">Menu</a></li>
+</ul>
+<h2>Talk to us</h2>
+<form style="margin-top: 50px" method="get" action="#">
+<div class="form-element">
+    <label>Name: </label>
+    <input type="text" name = "your_name"/>
+</div>
+
+<div class="form-element">
+    <label>Email: </label>
+    <input type="text" name="email"/>
+</div>
+
+<div class="form-element">
+    <label>How was your experience? </label>
+    <input type="radio" name="xp" value="Excellent">Excellent
+    <input type="radio" name="xp" value="Satisfactory">Satisfactory
+    <input type="radio" name="xp" value="Less Than Satisfactory">Less Than Satisfactory
+    <input type="radio" name="xp" value="Awful">Awful
+</div>
+
+<div class="form-element">
+    <label>Comments: </label>
+    <input type="text" name = "comments"/>
+</div>
+</form>
+<img src="FoodTruck.jpg" height="400" class="center">
+<div class ="footer">
+    <ul id="foot">
+        We are dedicated to quality service! Please visit us at 177 College Avenue.
+    </ul>
+</div class="footer">
+</body>
+</html>
